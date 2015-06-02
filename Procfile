@@ -1,1 +1,1 @@
-web: bin/env bin/bundle exec bin/thin -p $PORT start
+web: bundle exec thin -p $PORT start

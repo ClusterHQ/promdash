@@ -4,9 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.7'
 
 # Allow people to ignore the database provider they don't need by doing bundle install --without mysql
-gem 'mysql2', group: 'mysql'
 gem 'pg', group: 'postgresql'
-gem 'sqlite3', group: 'sqlite3'
 
 gem 'active_model_serializers'
 
